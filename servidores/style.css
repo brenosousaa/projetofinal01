@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:wght@700&family=DM+Sans:ital,opsz@1,9..40&family=Fira+Sans:wght@500&family=Genos:wght@300&family=Inter:wght@600&family=M+PLUS+2:wght@100&family=Montserrat:wght@100&family=Mulish:wght@200&family=Noto+Serif:ital,wght@0,100;1,100&family=Poppins:wght@700&family=Roboto:ital,wght@0,100;1,400&family=Rubik:wght@300&display=swap');
+
+:root {
+    --cor-principal: #FF770D;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.logo {
+    width: 50px;
+}
+
+nav {
+    background-image: url(imagens/fundo_ofc.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.menu__principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.menu__principal .menu__opcs ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu__principal .menu__opcs ul li {
+    padding: 0 15px;
+}
+
+.menu__principal .menu__opcs ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu__principal .menu__opcs ul li .whyskys__button {
+    background-color: var(--cor-principal);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.menu__principal .menu__opcs ul li .whyskys__button:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.btn__cadastrar {
+    color: #fff;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 200px;
+}
